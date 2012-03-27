@@ -1,0 +1,1158 @@
+[33mcommit 3ee423baada95f2caaccb2ca31a08884ea49c519[m
+Merge: de2e711 e663859
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu May 5 16:21:04 2011 +1000
+
+    change from dev to live
+
+[33mcommit e663859713d03b9d1efa0b17d8805cf655159d9e[m
+Author: huck <huck@visiontechdigital.com>
+Date:   Thu May 5 16:09:24 2011 +1000
+
+    test
+
+[33mcommit de2e7114de16bf1337af9c3f8504a38654b120e4[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu May 5 14:49:52 2011 +1000
+
+    change image size of price book cover page
+
+[33mcommit e5ba05124eaacea69ba6a8e9b6a6b6b08a04d288[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu May 5 11:12:44 2011 +1000
+
+    text issue for pdf and cover page
+
+[33mcommit 06fe235f80624b1d9ab72703107b9f0a276e5244[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed May 4 10:54:06 2011 +1000
+
+    change the pdf home page
+
+[33mcommit 17ceda23f935ace6f06c53fa5185258ae15c04a9[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 14:18:14 2011 +1000
+
+    pdf view
+
+[33mcommit b1716b9d88d2faac037e0fe834280ff03226a189[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 14:12:44 2011 +1000
+
+    pdf view
+
+[33mcommit 51fbfe9f3d445ca7f567af734da60b852f8238fc[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 14:11:32 2011 +1000
+
+    pdf view
+
+[33mcommit aa9d22ffbcf8c3830ed9d84cb4fbe5f516e688b9[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 14:10:25 2011 +1000
+
+    pdf view
+
+[33mcommit 8c2437cb1ddaaadcda5fc4d198dcb80e2ba91bf2[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 14:09:04 2011 +1000
+
+    pdf view
+
+[33mcommit 9235c1ef66ce99ae7b0c149cdb9cb7c33293aa83[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 13:43:08 2011 +1000
+
+    pdf view
+
+[33mcommit e71429b2cadbfab7da3ffe39e518b0e37737709f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 13:36:09 2011 +1000
+
+    pdf view
+
+[33mcommit fd240e44aacab23e61e03ee392bc73931ae0528f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 13:34:16 2011 +1000
+
+    pdf view
+
+[33mcommit ba95f98cb38ad42fb4a96cbca8cada70465d4e2a[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Apr 18 13:32:32 2011 +1000
+
+    pdf view
+
+[33mcommit 36ff0a7cf514bc35bd28abea327cfa99dbecc46e[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 10:03:36 2011 +1000
+
+    checking upload error
+
+[33mcommit d28da0de8c59b858633e33140de321c72c3adb94[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 10:02:45 2011 +1000
+
+    checking upload error
+
+[33mcommit 62ba692de9a27cc0cd59c1c21f2c33ed23e99a75[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 10:01:45 2011 +1000
+
+    checking upload error
+
+[33mcommit b016f117b006a4f2b804d21e65d9dd23c8fa76d2[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 10:01:15 2011 +1000
+
+    checking upload error
+
+[33mcommit 682df0a32723e4fd1003e6850875130dd4d9847e[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 10:00:45 2011 +1000
+
+    checking upload error
+
+[33mcommit e0ba97d77deef79c2e53c721e111c717c8f73021[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 09:56:07 2011 +1000
+
+    checking upload error
+
+[33mcommit 913e511973fe5d680d873934053241562b14d36b[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 09:39:39 2011 +1000
+
+    checking upload error
+
+[33mcommit 2896e71bfe27762b1036301f406c32e93507161d[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 09:30:23 2011 +1000
+
+    checking upload error
+
+[33mcommit 54952d21bc1f2d7b42bd69af8253e3070d7f9404[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Apr 7 09:23:21 2011 +1000
+
+    checking upload error
+
+[33mcommit 7989384c637cfb8efbb1de5c1ad3d3d78ee5824b[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 17:30:51 2011 +1000
+
+    checking upload error
+
+[33mcommit c32cc2e6f62e38463fb91fc3f0b3bf524958a23f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 17:26:11 2011 +1000
+
+    checking upload error
+
+[33mcommit 7e401082d574eb38a5ff00c45664fd2c187ddbfc[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 17:18:19 2011 +1000
+
+    checking upload error
+
+[33mcommit 443fc9c3b46677ee8c8bd58e4bfeb762dafd5986[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 17:14:38 2011 +1000
+
+    checking upload error
+
+[33mcommit 17367b5c74d7f7befe3411d35c4dd594e68e463d[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 17:12:35 2011 +1000
+
+    checking upload error
+
+[33mcommit 4887748107c0237b15300de2a768e4f7247fc2c5[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 17:09:18 2011 +1000
+
+    checking upload error
+
+[33mcommit 63058a67195265499bbaca25509ec01985c6ccc8[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 16:56:43 2011 +1000
+
+    checking upload error
+
+[33mcommit 1ac4ff0f2fbede927cc9cf11212052f4abe66897[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 16:53:31 2011 +1000
+
+    checking upload error
+
+[33mcommit 5d001116605ee0a0a622c9313581166e8783787d[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 16:48:37 2011 +1000
+
+    checking upload error
+
+[33mcommit 712fd4682bcd98b99cd932df1520a8299ac9042b[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 16:46:11 2011 +1000
+
+    checking upload error
+
+[33mcommit e6bc2f11e524d2f64a2caeca8373430763138bbe[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 16:43:04 2011 +1000
+
+    checking upload error
+
+[33mcommit f901771b20575e6be03b677f81f0b6c83b71698a[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 16:38:24 2011 +1000
+
+    checking upload error
+
+[33mcommit 34e956cf03845392e9efea60d30643d4a63fe299[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 16:22:04 2011 +1000
+
+    checking upload error
+
+[33mcommit 06fca92761479905612ce52be9317ffaa1037994[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 16:13:42 2011 +1000
+
+    new pricebook view
+
+[33mcommit 78867997df2f0e729bd8eb4ea32f7c28462aacff[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 15:53:52 2011 +1000
+
+    new pricebook view
+
+[33mcommit a9e1b5a57032b067e58acfc549a843c47183d92e[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 15:48:33 2011 +1000
+
+    new pricebook view
+
+[33mcommit 5bbd8bcf9d422086be8c1c5983424ce6021501c3[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 15:45:43 2011 +1000
+
+    new pricebook view
+
+[33mcommit 5988dfa45c9f57dd1f125939cf9d82cf4f804517[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 15:40:14 2011 +1000
+
+    new pricebook view
+
+[33mcommit caa1ccd2a73911c3dabf21441f875cb6069e433d[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 15:27:18 2011 +1000
+
+    new pricebook view
+
+[33mcommit 9fb7ca71a9b6ab6cc9fb43c45f16dd824d17c3dd[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 12:49:33 2011 +1000
+
+    new pricebook view
+
+[33mcommit 54b95535ecd7efade3120e8b79d1779f1db9e8ad[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:59:54 2011 +1000
+
+    new pricebook view
+
+[33mcommit 58cd9afa7f2ff777881f974c2c1cce044876a5e4[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:58:44 2011 +1000
+
+    new pricebook view
+
+[33mcommit 2aca243965546fd1eb30d7fff581a01d58b842f0[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:56:36 2011 +1000
+
+    new pricebook view
+
+[33mcommit e83e63ebb6cf804065ea4c0afd9f5f197acd6e36[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:55:29 2011 +1000
+
+    new pricebook view
+
+[33mcommit 8dcac51ba6137562a4e917c293092d7b4894c5bf[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:52:26 2011 +1000
+
+    new pricebook view
+
+[33mcommit 7de5691c88a2683a4bd1c36e4eb13547c795d4ec[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:48:12 2011 +1000
+
+    new pricebook view
+
+[33mcommit aa9a37293dfb46261a14fdba8433697c055fe8ba[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:47:28 2011 +1000
+
+    new pricebook view
+
+[33mcommit 6f92aeb378eafde1144e8303a9026a734bb1df5e[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:46:42 2011 +1000
+
+    new pricebook view
+
+[33mcommit ffd27fc38028e031d7221a4d3863ee09e3bb165e[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:43:01 2011 +1000
+
+    new pricebook view
+
+[33mcommit 29b964efd884ecb9dac4c834a76a2d67ad66d833[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:41:41 2011 +1000
+
+    new pricebook view
+
+[33mcommit 98cb0de6de50bca960deb903bff01f62921394d4[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:35:59 2011 +1000
+
+    new pricebook view
+
+[33mcommit e336e22f28d0d213ea6941ad8bf86724e8e813a2[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:32:55 2011 +1000
+
+    new pricebook view
+
+[33mcommit 5e7bf8abea92c2fab0fde458872e131e4304b201[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Apr 6 09:31:30 2011 +1000
+
+    new pricebook view
+
+[33mcommit 02e76a211c5c5d8f85d70dab476f8bfadd0fc6da[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 17:43:15 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 6a1959298dcbcddbf4aa7271304591eeeebe254f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 17:42:37 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit b7daabde4ae9b2f53dc859fb460e17ec6057f9b2[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 17:41:24 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit ff8bff04fab739dc2fa1ca376b55ea76e31f4b04[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 17:32:00 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 7b7131bf784622be6ad43d8760940d3809040964[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 17:30:48 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 4aa4bc45420c20f5e6f295ac144f787ecaf2d9ae[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 17:26:38 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 960b317fe456eccdb5f0e4cbc95c3428d5cec241[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 17:22:56 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 78b0d286ddabe09a555cb8a3575994329233a057[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 17:21:01 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 3a91d47893416cdcbced1e9018b9857874aa2492[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 16:41:12 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 8efcaf7c7f5ccdc5fc1813f026ec2cc13b844dc0[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 16:40:04 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 6b43bc0fc90b82bc96a7e21908d5b8882430a7aa[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 16:37:12 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 09c39d6d924953fa546dee91be0b708f59c8dcbd[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 16:10:53 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 1306afec75cf247108501d59a6e658d0d2f048be[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 16:10:11 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 50bd66043e10ace1d652233d41d602cddd2c9c76[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 16:08:09 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 1a11be6e0800f7eef8865f4a52045a9dbff43a48[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 16:02:08 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 5e43217bfaa78f7c300cc59c8eb904381db4ef29[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 15:59:51 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 74af9c2a8422ae6efa9abb2deca7ed2f5ea2cf30[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 15:58:34 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit ab04dabe146500a4143f2260811b360ea0ec7697[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 15:55:51 2011 +1000
+
+    update pricebook view 0_o
+
+[33mcommit 9b7b8064c0c8f664949924e118230b29cef35d99[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 15:39:37 2011 +1000
+
+    update tinymce
+
+[33mcommit 18a61ab08b237ccd3185aee0193494bad0b871fe[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 14:13:22 2011 +1000
+
+    update tinymce
+
+[33mcommit 648dc36e3bcdb083f4e4b6df11d6aa419029c5b7[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 14:09:33 2011 +1000
+
+    update tinymce
+
+[33mcommit f589e6630d29c01d027d43991d29919e4b48cce5[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Apr 5 12:27:53 2011 +1000
+
+    update tinymce
+
+[33mcommit 6732a6e0e5411faba3164a2380a780dfa7021009[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Mar 30 14:03:34 2011 +1100
+
+    image insert issue
+
+[33mcommit 66f40386a8099eb493c776e8056cb607d4e84d3c[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Wed Mar 30 13:31:56 2011 +1100
+
+    CMS files and image fix
+
+[33mcommit 3dc6d22d92d4a6be6c21f13cbf4ffa2a5f6374ca[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 17:23:40 2011 +1100
+
+    update webpublisher url for downloading area
+
+[33mcommit 53c0b510020a6b61f0caa4bf5d882035e407d381[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 17:21:43 2011 +1100
+
+    update webpublisher url for downloading area
+
+[33mcommit dee75e26e063cb3f174503fc93d16094b66a7157[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 17:12:23 2011 +1100
+
+    update webpublisher url for downloading area
+
+[33mcommit 87a75e1244a0a2b7884a606a0a1c99c2ccbfe6bd[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 17:11:23 2011 +1100
+
+    update webpublisher url for downloading area
+
+[33mcommit 3b25933da06d7191e95f93932006377f182bf3bd[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 16:42:01 2011 +1100
+
+    update webpublisher url for downloading area
+
+[33mcommit 1cd87df299a6dc024ba9431647e687aa76524f10[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 16:41:42 2011 +1100
+
+    update webpublisher url for downloading area
+
+[33mcommit 360393addd91c294ab43fe00e2eeee89c488ae08[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 16:39:37 2011 +1100
+
+    update webpublisher url for downloading area
+
+[33mcommit d716c61debb7dcae2d5a122af39cf65136364dab[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 16:38:33 2011 +1100
+
+    update webpublisher url for downloading area
+
+[33mcommit f198225bd1533373d3606c108c074a63bcbbdec3[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 16:22:00 2011 +1100
+
+    username length check funtion
+
+[33mcommit 6e43ad58309811b25d9707e9de4204dc3d6d59e9[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 16:21:19 2011 +1100
+
+    username length check funtion
+
+[33mcommit 7c959e46a3b4703b6812121331c4ed392b571a91[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 16:19:00 2011 +1100
+
+    username length check funtion
+
+[33mcommit 02f1b2c61a57a76fb603fdaafdbbffca6fe7f884[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:58:58 2011 +1100
+
+    pdf title page
+
+[33mcommit 85329d5583da27372acb4a9f7820e52ec290ad93[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:51:44 2011 +1100
+
+    pdf title page
+
+[33mcommit 5e45c66a9d55e97457874f37f5f1dae4af0df0b0[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:46:14 2011 +1100
+
+    pdf title page
+
+[33mcommit 9bb1c79f0083912368cbf1cfe93cea091489b1fc[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:45:07 2011 +1100
+
+    pdf title page
+
+[33mcommit e8586911b9cc232ccdb16b98a288da88e247d06d[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:44:30 2011 +1100
+
+    pdf title page
+
+[33mcommit 903cf3a822e7ff746a192da6481cf80c266a207f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:36:47 2011 +1100
+
+    pdf title page
+
+[33mcommit ffc62c27a855c6f95a3513083a8a2a7598700c90[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:34:56 2011 +1100
+
+    pdf title page
+
+[33mcommit bc048acc32ce73070b7ee52eacd4a2969f62ce21[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:34:27 2011 +1100
+
+    pdf title page
+
+[33mcommit 93f611b4826989d3224f1287bb6e45e081fc61cb[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:33:25 2011 +1100
+
+    pdf title page
+
+[33mcommit 8ded72e50520ff372335605d8e0a243f97a29413[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:32:38 2011 +1100
+
+    pdf title page
+
+[33mcommit ff9865209a67094b1e320ffbe554f5d001c968be[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:31:59 2011 +1100
+
+    pdf title page
+
+[33mcommit b6966157a6df0024451173f51966851eac9f0343[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:31:13 2011 +1100
+
+    pdf title page
+
+[33mcommit f7b31decf383a27f4852f005fc708462d5fbdd0d[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:29:55 2011 +1100
+
+    pdf title page
+
+[33mcommit 11e899fd508a83f12679e0d654596599f343492f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:28:00 2011 +1100
+
+    pdf title page
+
+[33mcommit 2b38c791519c26c6de3c7701ba33e6b77c30ed99[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:27:18 2011 +1100
+
+    pdf title page
+
+[33mcommit 607a9cc363b39de6d780a05ec41fc45d8ed73515[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:26:09 2011 +1100
+
+    pdf title page
+
+[33mcommit 50931edb0a374115b39f2a3c91e9f03950ce1c6c[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:25:14 2011 +1100
+
+    pdf title page
+
+[33mcommit f001e9b10841d7407e5be43bda4f6313b66072ab[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:20:56 2011 +1100
+
+    pdf title page
+
+[33mcommit af40f72f3c3c527cc7fc41c6f246146f879468f4[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:20:05 2011 +1100
+
+    pdf title page
+
+[33mcommit 1440875cd7223c1541cf2f52f48baa70e3976153[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:19:23 2011 +1100
+
+    pdf title page
+
+[33mcommit 280251cc3df9c8ca439aaa297b381552f99a4080[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:18:31 2011 +1100
+
+    pdf title page
+
+[33mcommit 5d99ec77c75dda47427f9785476acf137598305a[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:14:05 2011 +1100
+
+    pdf title page
+
+[33mcommit e7a33fdb7ed086bda54550afc291acf630764f65[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:13:28 2011 +1100
+
+    pdf title page
+
+[33mcommit 3db4bb9c9205db0a4c3a9d7c169bee7b1e6c5724[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:09:33 2011 +1100
+
+    pdf title page
+
+[33mcommit 49b5b913330bdca9b5224821ec8e531a5561e6ad[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:06:38 2011 +1100
+
+    pdf title page
+
+[33mcommit 38b8002e1560ac47fbb148f51345888d30c90cb9[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:05:58 2011 +1100
+
+    pdf title page
+
+[33mcommit 121613568a5a417a75d96dc306de51a1b8f8b257[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:04:15 2011 +1100
+
+    pdf title page
+
+[33mcommit 8c0522b7f93a62ee80c00ccf7ebf61cc340bddb0[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:02:57 2011 +1100
+
+    pdf title page
+
+[33mcommit a1c0f2a561f8bb8b052f4ea92bb5cd83a6b56247[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 15:01:19 2011 +1100
+
+    pdf title page
+
+[33mcommit 5632f1b3666bb5e5fb32258c4a430004c219cdb1[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:59:39 2011 +1100
+
+    pdf title page
+
+[33mcommit 77d69b739a41831a24a2bd1e044967771f392103[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:58:03 2011 +1100
+
+    pdf title page
+
+[33mcommit 316e601d90128517b553de1206ec5a2d05411932[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:53:20 2011 +1100
+
+    pdf title page
+
+[33mcommit a0e8490f8789f137a968b74fc9639f51ddb64db0[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:34:48 2011 +1100
+
+    pdf title page
+
+[33mcommit 4cc703f9f661c313422d074df24fe35279c7941b[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:31:00 2011 +1100
+
+    pdf title page
+
+[33mcommit 0cdf204756232c457d96cbffcc0f0f82cfe06b19[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:30:31 2011 +1100
+
+    pdf title page
+
+[33mcommit 06d996e77d4d10d879b122059a81e4304ec66538[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:29:36 2011 +1100
+
+    pdf title page
+
+[33mcommit 553594395e8202bfeee68a193a2f0464e4717749[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:26:14 2011 +1100
+
+    pdf title page
+
+[33mcommit 087b8bf2b70af2a3c9669449a5c6f3a8a7a484eb[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:24:21 2011 +1100
+
+    pdf title page
+
+[33mcommit 49c611fb4708d8baa367465fdcd1e163891e12cb[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:23:21 2011 +1100
+
+    pdf title page
+
+[33mcommit 52ba9eed2adf5299861a28599cca4a3e15a9614a[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:22:18 2011 +1100
+
+    pdf title page
+
+[33mcommit c8f4dc9616a568fb44c63bee37fe302f376a4f14[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:21:35 2011 +1100
+
+    pdf title page
+
+[33mcommit e2aa837ea6fdf8c819fc89bf6890b92ff95e98ce[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:20:14 2011 +1100
+
+    pdf title page
+
+[33mcommit b2f636d15f75fc2a412d10502cb4c4dcb8e15722[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:19:40 2011 +1100
+
+    pdf title page
+
+[33mcommit 507de2235ca36b6800f7e009b13ec228631de15d[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:17:58 2011 +1100
+
+    pdf title page
+
+[33mcommit b878ef693efa9a5715c7fb175ac9f640bb3da931[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:14:07 2011 +1100
+
+    pdf download title page
+
+[33mcommit 1317e26df4dcc6cff86c4b9f5b2b93573a7c78b2[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:12:21 2011 +1100
+
+    pdf download title page
+
+[33mcommit d97b23d0650303d994082048ad76036b86e7fa14[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:11:18 2011 +1100
+
+    pdf download title page
+
+[33mcommit c5c8a50c4de65129bc8b65a362e256bf3b56a233[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:10:19 2011 +1100
+
+    pdf download title page
+
+[33mcommit f8f6e9869f181ac15a53840810a27a6c4c359f9f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:09:12 2011 +1100
+
+    pdf download title page
+
+[33mcommit dba4daa215f6fa58dcd1ed08b05b9bfd3bf3d3cc[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 14:06:44 2011 +1100
+
+    pdf download title page
+
+[33mcommit 99ee33fc0350355db39b716ae7b4c0b651647f19[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 13:56:31 2011 +1100
+
+    pdf download title page
+
+[33mcommit 94ac3fb1fa69e6b7e6c00dc9f21689c286c505a5[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 13:55:44 2011 +1100
+
+    pdf download title page
+
+[33mcommit 4f22348743d4f4f601d4062ca02a48f1f7df82bf[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 13:51:07 2011 +1100
+
+    pdf download title page
+
+[33mcommit f6d1b435ef57a1f6a39c7bc726f71b6899b72e7e[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 13:48:15 2011 +1100
+
+    pdf download title page
+
+[33mcommit 3841f6f56396ff22273f69e0967416471c4aaf49[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 13:46:07 2011 +1100
+
+    pdf download title page
+
+[33mcommit 5d81246bc89d880bef072e5917869060b848c3a0[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 12:45:19 2011 +1100
+
+    pdf download title page
+
+[33mcommit d7aa65c6a3c8078a0059453efc6ea6136ad03dd9[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 12:23:17 2011 +1100
+
+    pdf title page
+
+[33mcommit 62abd6c1c27e56ae9bfc5de7bdb6cc553396c895[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 10:48:47 2011 +1100
+
+    why there are so many hand code and bug
+
+[33mcommit a5b160641f5f18febb7e9337829bdff9e040174f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 10:06:52 2011 +1100
+
+    why there are so many hand code and bug
+
+[33mcommit 5d15908624e3dbd5d16f04d66a4f922cca64cc46[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 10:04:21 2011 +1100
+
+    why there are so many hand code and bug
+
+[33mcommit 6386d9ff15e8efcd98b5796d1ee06c52e99b9108[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 10:02:05 2011 +1100
+
+    huck testing
+
+[33mcommit ecd763935ea748154e721355a4dc7c42e85d93e6[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 09:59:24 2011 +1100
+
+    huck testing
+
+[33mcommit b991beb6a8f2158069de8cca2e358a013aacc593[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 09:57:08 2011 +1100
+
+    huck testing
+
+[33mcommit 0620ef6f12a3aa7a2b95b7c5b6d7d00ecc8fbe0e[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 09:41:54 2011 +1100
+
+    huck testing
+
+[33mcommit 06cbe51610aa3b6f5795f48ebb9a642491ee313f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 09:41:02 2011 +1100
+
+    huck testing
+
+[33mcommit c8abfc26fbe4ec41db7546c10498369fa6b86e73[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 09:39:59 2011 +1100
+
+    huck testing
+
+[33mcommit bb59fe472d66fec4785ad246f1da2110e0c82534[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 09:36:02 2011 +1100
+
+    huck testing
+
+[33mcommit 6e6c3b133cb91e050f162818c87e9e6a8161a37d[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 09:29:59 2011 +1100
+
+    huck testing
+
+[33mcommit 0acec99438b16ef888eed2175d4e7ff6a810e036[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Mon Mar 28 09:26:52 2011 +1100
+
+    huck testing
+
+[33mcommit 4bea1986fbe4cb7ce2fa2d065f5fdbf69e760213[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 14:14:39 2011 +1100
+
+    tiny mce heading issue
+
+[33mcommit d72ba36e69266f5aedbf6a21e472538290db3ab8[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 14:14:06 2011 +1100
+
+    tiny mce heading issue
+
+[33mcommit 291ad05744455c8e2baaa73cbe64b806fc6dd085[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 14:13:23 2011 +1100
+
+    tiny mce heading issue
+
+[33mcommit 9025eeae98e8f7369c3970ca66dc83a3770b5f9a[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 14:11:48 2011 +1100
+
+    tiny mce heading issue
+
+[33mcommit 6e82a40d458acd81f28da535168a6ab35177e49b[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 13:34:45 2011 +1100
+
+    tiny mce heading issue
+
+[33mcommit 0f9d9db56560c723ce62fb4b9377f463588eff8a[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 13:22:25 2011 +1100
+
+    textarea missing issue
+
+[33mcommit 6c6bd26515b0d4fcd5e04c66b2e1dcf519542149[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 13:18:10 2011 +1100
+
+    textarea missing issue
+
+[33mcommit 35e86874ef9aafe4d186b0452339d84a7e321423[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 12:21:42 2011 +1100
+
+    let me in!!!!!!
+
+[33mcommit 29106f56be7436320d6054d67b33039b19ed28fe[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 12:18:02 2011 +1100
+
+    let me in!!!!!!
+
+[33mcommit 306ad974d3438b7dac6608a5c6b70a558ca9999c[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 12:15:58 2011 +1100
+
+    let me in!!!!!!
+
+[33mcommit 237327888de01013eec7d086b0932e8c934ea61c[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 12:14:45 2011 +1100
+
+    let me in!!!!!!
+
+[33mcommit f82426f5e995a5a8f1114e3c8427e696d3eb576c[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 12:12:59 2011 +1100
+
+    let me in!!!!!!
+
+[33mcommit bf45b35e44f51e59661ea468806d80909828fdb7[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 12:08:54 2011 +1100
+
+    let me in!!!!!!
+
+[33mcommit c63d1861a518390df96b8fa9265d0e71178b3700[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 12:07:17 2011 +1100
+
+    let me in!!!!!!
+
+[33mcommit c0141c9d019252dca9b0cef15aece8b5aebcb654[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 12:06:05 2011 +1100
+
+    let me in!!!!!!
+
+[33mcommit 801538d6d75c72959d2deec952bd687d3b365688[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 11:49:02 2011 +1100
+
+    modify download tite issue
+
+[33mcommit 0cdff8153833fedae59c834ec931a2e16db42139[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 11:47:10 2011 +1100
+
+    modify download tite issue
+
+[33mcommit 7e9285b1137ceb90bb00ef8ecdc89aae4b4e9220[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 11:46:30 2011 +1100
+
+    modify download tite issue
+
+[33mcommit 0e7f061a87651caf9c0d41275ea8ab337a2d5dbe[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 11:34:45 2011 +1100
+
+    modify download tite issue
+
+[33mcommit da8d777c2d1ecde0b036be62d43b99b2b35a7b3f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 11:29:26 2011 +1100
+
+    modify all the links css which is too dark
+
+[33mcommit 511749b0847c6ae40bd3c646b78f0a909696010c[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 11:15:00 2011 +1100
+
+    stop double up the file extantion
+
+[33mcommit 5869509bd59b99869935a627da448522b04132aa[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 11:08:25 2011 +1100
+
+    stop double up the file extantion
+
+[33mcommit 61459b9233cae37fb5f29854471eb95314bfe05a[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Fri Mar 25 11:03:07 2011 +1100
+
+    stop double up the file extantion
+
+[33mcommit 535f8c629e985817bf84c478bc41cec5e76aa1d7[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Mar 24 16:10:10 2011 +1100
+
+    omg, hoard code everything-_-!
+
+[33mcommit cece1835d109b97c64b3175033743e987727d3bc[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Mar 24 16:07:59 2011 +1100
+
+    omg, hoard code everything-_-!
+
+[33mcommit 907f24a95982c2e5002bfe65313778bdb7094ea5[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Mar 24 16:05:29 2011 +1100
+
+    omg, hoard code everything-_-!
+
+[33mcommit 140a30ab6505ac74ceb4e6729e7b34aa4664c322[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Mar 24 15:56:34 2011 +1100
+
+    Updated pricebook.php and cover
+
+[33mcommit bb89f2735caa0c2ef4887047d3194fa016f19b7f[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Mar 24 15:55:37 2011 +1100
+
+    Updated pricebook.php
+
+[33mcommit f0a42c594928dc7d9982a9a6a3798a5df7b09498[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Mar 24 15:39:24 2011 +1100
+
+    Updated pricebook.php
+
+[33mcommit f438410cf4a3d507653b295917e1451652245766[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Thu Mar 24 15:30:55 2011 +1100
+
+    Updated configuration values to work on dev server
+
+[33mcommit 51479ee843e80648c7151c2c15645176cc400061[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Mar 22 12:53:28 2011 +1100
+
+    index.php changes to check error
+
+[33mcommit cd5d698f53f3dd0afc26c773ed04080686557084[m
+Author: Huck Wang <huck@visiontechdigital.com>
+Date:   Tue Mar 22 12:24:22 2011 +1100
+
+    Updated the database credentials
+
+[33mcommit d674f30452dbbd62368294b07acea100d2b724b5[m
+Author: neccd <neccd@ve.5pqbkbtb.vesrv.com>
+Date:   Wed Mar 2 03:08:18 2011 +1100
+
+    initial import

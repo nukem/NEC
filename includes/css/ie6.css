@@ -1,0 +1,14 @@
+.main_menu ul li {
+	height:1%;
+}
+.main_menu ul li a {
+	height:1%;
+}
+.middle-container {
+	width:460px;
+}
+.tab-session li a {
+	width:1%;
+}
+
+/*img, div, a, input { behavior: url(iepngfix.htc) }*/

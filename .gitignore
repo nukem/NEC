@@ -1,0 +1,9 @@
+wpdata/*
+wpdata/**/*
+webpublisher/log.txt
+edms/*
+filedata/*
+sample/*
+webpublisher/files/*
+necdi/cache/*
+necdi/logs/*
