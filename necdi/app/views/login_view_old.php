@@ -14,11 +14,11 @@
 				<input type="hidden" name="last_url" value="<?= $this->session->flashdata('last_url') ?>" />
 				<p class="forgot-pass"><a href="account/forgot_password">Forgot your password?</a></p>
 			</form>
-	<!--  	<script type="text/javascript">
+			<script type="text/javascript">
 			window.onload = function() {
 				document.forms[0].username.focus();
 			}
-			</script> -->	
+			</script>
 			<? } ?>
 		<p class="no-account">If you do not have an account, please <a href="account/register/">register here</a>.</p>
 		

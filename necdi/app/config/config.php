@@ -11,8 +11,7 @@
 |	http://www.your-site.com/
 |
 */
-//$config['base_url']	= "https://203.142.25.192:8443/sitepreview/http/nec-cds.com/";
-$config['base_url']	= "http://nec-cds.com/";
+$config['base_url']	= "http://www.nec-cds.com.au/";
 //$config['base_url'] = "http://localhost:8888/necdi/";
 
 /*

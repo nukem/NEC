@@ -10,7 +10,7 @@
 | For more info visit:  http://www.php.net/error_reporting
 |
 */
-	error_reporting(E_ALL);
+	error_reporting(0);
 	/*if ($_SERVER['REMOTE_ADDR'] != '124.43.210.166')
 	{
 		include 'temp_index.php';

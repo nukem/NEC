@@ -320,6 +320,12 @@ Please disregard this email if you have not made this request.
         if (is_array($data) && count($data) > 0) {
             $out = $data[0];
 			$out['error'] = false;
+			if(!empty($data[0]['last_login']) && ($data[0]['last_login'] != '0000-00-00 00:00:00'))
+			{
+				$out['last_login'] = date('j/M/Y', strtotime($data[0]['last_login']));
+			} else {
+				$out['last_login'] = '';
+			}
 			echo json_encode($out);
         } else {
             echo '{error:true, errorMsg:"Failed to obtain database details!"}';

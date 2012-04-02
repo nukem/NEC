@@ -81,10 +81,9 @@ class Login_model extends Model {
         
         $sql = "SELECT * FROM `{$this->user_table}` WHERE `{$this->user_field}` = ? AND `{$this->password_field}` = ? AND `approved` = '1' LIMIT 1";
         $user = $this->db->query($sql, array($email, $password));
-        error_reporting (E_ALL);
+        
         if ($user->num_rows() > 0) {
 
-			//print_r($user->result_array());die();
 			$data = $user->result_array();
 			$userid = $data[0]['userid'];
 			$ip = $_SERVER['REMOTE_ADDR'];
@@ -96,8 +95,7 @@ class Login_model extends Model {
 				last_login = '{$datetime}',
 				last_login_area = $area 
 				WHERE userid={$userid}";
-			$this->db->query($sql);
-
+			$this->db->query($sql);        	
             return $user->result_array();
         } else {
             return false;

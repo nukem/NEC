@@ -4,7 +4,7 @@ require ("cfg.php");
 require ("lang.php");
 require ("fn.php");
 
-error_reporting (0); //E_ERROR | E_PARSE);
+//error_reporting (E_ALL); //E_ERROR | E_PARSE);
 ini_set ("arg_separator.output", "&amp;");
 ini_set ("session.use_only_cookies", true);
 

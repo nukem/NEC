@@ -3,9 +3,6 @@
 require ("cfg.php");
 
 $filename = $cfg['data'] . $_GET['file'];
-echo '<div style="display:none;">';
-echo $filename;
-echo '</div>';
 $file_extension = strtolower(substr(strrchr($_GET['file'],"."),1));
 
 switch ($file_extension) {

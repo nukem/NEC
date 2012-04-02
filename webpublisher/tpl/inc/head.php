@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?= $lang[0] ?></title>
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen,projection" />
-<link rel="stylesheet" href="/includes/css/jquery.popover.css" type="text/css" media="screen,projection" />
+
 <? if(isset($loadMCE)){ ?>
 <script type="text/javascript" src="tinymce/tiny_mce.js"></script>
 <script type="text/javascript">

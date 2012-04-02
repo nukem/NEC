@@ -201,7 +201,7 @@ table#users {
 			<?php
 				echo '<table width="100%" cellpadding="0" cellspacing="0" id="users" class="user-table">'."\n";
 				echo '<thead>'."\n" . '<tr>' ."\n";
-				echo '<th>Dealer No. (Logins)</th>'."\n";
+				echo '<th>Dealer No. (Last Login)</th>'."\n";
 				echo '<th>Company</th>'."\n";
 				echo '<th>Contact Name</th>'."\n";
 				echo '<th>Phone</th>'."\n";
@@ -211,23 +211,15 @@ table#users {
 				echo "<tbody>\n";
 				
 				foreach($dealers as $dealer){
-
-					if ($delear['login_count'] > 0): $varcountstring = "({$delear['login_count']})"; else: $varcountstring = ""; endif;
-					
+					$logininfo = '';
+					if(!empty($dealer['last_login']) && ($dealer['last_login'] != '0000-00-00 00:00:00'))
+					{
+						$logininfo = '  (' . date('j/M/Y', strtotime($dealer['last_login'])) . ')';
+					}
 					echo '<tr id="utr-'.$dealer['userid'].'">'."\n";
 ?>
 					<td id="utdn-<?php echo $dealer['userid'];?>" style="display:relative;">
-					<div  style="display:none" class="login-info" id="usage-info-<?php echo $dealer['userid'];?>">
-						<ul>
-							<li><span>Login Count:</span> <strong><?php echo intval($delear['login_count']);?></strong></li>
-							<li><span>Last Login:</span> <strong><?php echo date('Y-m-d H:i:s', strtotime($delear['last_login']));?></strong></li>
-							<li><span>Last IP:</span> <strong><?php echo $dealer['last_login_ip'];?></strong></li>
-							<li><span>Area:</span> <strong></strong></li>
-						</ul>
-					</div>
-						<a title="Login Information" href="#usage-info-<?php echo $dealer['userid'];?>" class="login-info">
-						<?php echo $dealer['dealer_no']; echo $varcountstring; ?>
-						</a>					
+						<?php echo $dealer['dealer_no'] . $logininfo;?>					
 					</td>
 <?php
 				    echo '<td>'.$dealer['company'].'</td>'."\n";
@@ -516,6 +508,7 @@ table#users {
                         data.dealer_no = '';
 						data.existing_dealer_no = '';
                         data.email = '';
+                        data.last_login = '';
                         data.password = '';
                         data.category_fk = '';
                         data.state = '';
@@ -558,7 +551,8 @@ table#users {
                     table += '<tr><td>Contact No.</td><td><input type="text" name="telephone" id="edit_telephone" value="'+data.telephone+'" /></td></tr>';
                     table += '<tr><td>Dealer No</td><td><input type="text" name="dealer_no" id="edit_dealer_no" value="'+data.dealer_no+'" /></td></tr>';
                     table += '<tr><td>Email</td><td><input type="text" name="email" id="edit_email" value="'+data.email+'" /></td></tr>';
-                    table += '<tr><td>Password</td><td><input type="text" name="password" id="edit_password" value="" />';
+                    table += '<tr><td>Last Login</td><td>'+data.last_login+'</td></tr>';
+                     table += '<tr><td>Password</td><td><input type="text" name="password" id="edit_password" value="" />';
                     
                     if (!data.new_user) {
                         table += '<input type="checkbox" name="update_user_password" id="update_user_password" /> Tick to update user password.';
@@ -740,11 +734,4 @@ table#users {
 						<th>Details</th>
 					</thead>
 					<tbody></tbody>
-				</table>
-			</div>
-		</form>
-	</div>
-	
-</div>
-
-
+				</ta
