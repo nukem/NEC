@@ -885,7 +885,8 @@ class Pricebook extends Controller{
 			redirect('userlogin/');
 			exit();
 		}
-        
+        //get fields
+		$data['fields'] = $this->db->get('nec_pricetable_fields')->result_array();
 		
         $type_fk = $this->uri->segment(3);
         $type_name = $this->pricebook_model->getTypeName($type_fk);

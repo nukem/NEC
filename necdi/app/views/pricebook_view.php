@@ -119,78 +119,78 @@ h2 {
 <?
         if($a_num != 0){
 ?>
-        <th rowspan='2'>CAT.</th>
+        <th rowspan='2'><?=$fields[0]['title'];?></th>
 <?
         }
 ?>
-	<th rowspan="2">Status</th>
-        <th rowspan='2'>Product code</th>
-        <th rowspan='2'>Image</th>
+	<th rowspan="2"><?=$fields[1]['title'];?></th>
+        <th rowspan='2'><?=$fields[2]['title'];?></th>
+        <th rowspan='2'><?=$fields[3]['title'];?></th>
 <?
         if($name == $projector||$name == $whiteboard){
 ?>
-        <th rowspan='2'>res</th>
-        <th rowspan='2'>chip set</th>
+        <th rowspan='2'><?=$fields[4]['title'];?></th>
+        <th rowspan='2'><?=$fields[5]['title'];?></th>
 <?
         }
         if($name == $display){
 ?>
-        <th rowspan='2'>Color</th>
-        <th rowspan='2'>SCR Size</th>
+        <th rowspan='2'><?=$fields[17]['title'];?></th>
+        <th rowspan='2'><?=$fields[19]['title'];?></th>
 <?
         }
         if($name == $lcd){
 ?>
-        <th rowspan='2'>Notes</th>
-        <th rowspan='2'>Size</th>
+        <th rowspan='2'><?=$fields[18]['title'];?></th>
+        <th rowspan='2'><?=$fields[19]['title'];?></th>
 <?
         }
 ?>
-        <th rowspan='2'>Product description</th>
-        <th rowspan='2'>Wty</th>
+        <th rowspan='2'><?=$fields[6]['title'];?></th>
+        <th rowspan='2'><?=$fields[7]['title'];?></th>
 <?
         if($pricebook_cate == trim($distributor)|| $isAdmin){
 ?>
-        <th colspan='2'>DISTRIBUTOR</th>
+        <th colspan='2'><?=$fields[8]['title'];?></th>
 <?
         }
         if($pricebook_cate == trim($key_partner)|| $isAdmin){
 ?>
-        <th colspan='2'>KEY PARTNER</th>
+        <th colspan='2'><?=$fields[9]['title'];?></th>
 <?
         }
         if($pricebook_cate == trim($pro_av) || $isAdmin){
 ?>
-        <th colspan='2'>PRO AV</th>
+        <th colspan='2'><?=$fields[10]['title'];?></th>
 <?
         }
         if($pricebook_cate == trim($govt) || $isAdmin){
 ?>
-        <th colspan='2'>GOV'T</th>
+        <th colspan='2'><?=$fields[11]['title'];?></th>
 <?
         }
         if($pricebook_cate == trim($wholesale1) || $isAdmin){
 ?>
-        <th colspan='2'>WHOLESALE 1</th>
+        <th colspan='2'><?=$fields[12]['title'];?></th>
 <?
         }
         if($pricebook_cate == trim($wholesale2) || $isAdmin){
 ?>
-        <th colspan='2'>WHOLESALE 2</th>
+        <th colspan='2'><?=$fields[13]['title'];?></th>
 <?
         }
         if($pricebook_cate == trim($comm) || $isAdmin){
 ?>
-        <th colspan='2'>EDUCATION</th>
+        <th colspan='2'><?=$fields[14]['title'];?></th>
 <?
         }
         if($pricebook_cate == trim($int_vision) || $isAdmin){
 ?>
-        <th colspan='2'>DEALER</th>
+        <th colspan='2'><?=$fields[15]['title'];?></th>
 <?
         }
 ?>
-        <th>RRP</th>
+        <th><?=$fields[16]['title'];?></th>
     </tr>
     <tr>
 <?
