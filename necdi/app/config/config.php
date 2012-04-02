@@ -13,7 +13,7 @@
 */
 $config['base_url']	= "http://www.nec-cds.com.au/";
 //$config['base_url'] = "http://localhost:8888/necdi/";
-
+$config['base_url']	= "http://nec-cds.dev/";
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -124,7 +124,8 @@ $config['subclass_prefix'] = 'MY_';
 | DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
 |
 */
-$config['permitted_uri_chars'] = 'a-z 0-9~%.:_-';
+//$config['permitted_uri_chars'] = 'a-z 0-9~%.:_-';
+$config['permitted_uri_chars'] = '';
 
 
 /*

@@ -24,7 +24,10 @@ function makeStructure ($parent, $prefix, $sort) {
    if (in_array (array ($db[$i]['id'], $db[$i]['title']), $path) && dbq ("SELECT * FROM {$cfg['db']['prefix']}_structure WHERE parent = {$db[$i]['id']}"))
            echo '<td class="thread bl">';
    else       echo '<td class="thread l">';
-           echo '<img src="img/ico-rec/' . $db[$i]['type'] . '.gif" alt="' . ucfirst ($db[$i]['type']) . '" /></td><td>';
+   
+	if(($db[$i]['type'] == 'priceb	ook_fields')) echo '<img src="img/ico-rec/folder.gif" alt="' . ucfirst ($db[$i]['type']) . '" /></td><td>';
+	else  echo '<img src="img/ico-rec/' . $db[$i]['type'] . '.gif" alt="' . ucfirst ($db[$i]['type']) . '" /></td><td>';
+	
    if ($db[$i]['id'] == $id)  echo '<strong>';
    if ($db[$i]['online'] == 0)  echo '<em>';
    if ($db[$i]['title'] != '')  echo '<a href=".?id=' . $db[$i]['id'] . '">' . htmlspecialchars ($db[$i]['title']) . '</a>';

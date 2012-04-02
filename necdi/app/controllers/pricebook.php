@@ -78,7 +78,9 @@ class Pricebook extends Controller{
 	
 	$query = $this->pricebook_model->get_pb_title();
 	$title = $query[0]['title'];
-	
+
+	$data['fields'] = $this->db->get('nec_pricetable_fields')->result_array();
+
 	$this->load->view('whole_pricebook_view',$data);
     }
     

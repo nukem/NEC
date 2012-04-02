@@ -135,75 +135,75 @@ for($i=0; $i<$type_size; $i++){
 	<table border="1">
 		<thead>
 		<tr>
-                <th rowspan="2" align="center">CAT.</th>
-				<th rowspan="2" align="center">Status</th>
-                <th rowspan="2" align="center">Code</th>
-                <th rowspan="2" align="center">Image</th>
+                <th rowspan="2" align="center"><?=$fields[0]['title'];?></th>
+				<th rowspan="2" align="center"><?=$fields[1]['title'];?></th>
+                <th rowspan="2" align="center"><?=$fields[2]['title'];?></th>
+                <th rowspan="2" align="center"><?=$fields[3]['title'];?></th>
 <?
 			if($type == $projector || $type == $whiteboard){
 ?>
-                <th rowspan="2" align="center">RES</th>
-                <th rowspan="2" align="center">Chipset</th>
+                <th rowspan="2" align="center"><?=$fields[4]['title'];?></th>
+                <th rowspan="2" align="center"><?=$fields[5]['title'];?></th>
 <?
 			}
 			else if($type == $display || $type == $public){
 ?>
-				<th rowspan="2" align="center">Color</th>
-				<th rowspan="2" align="center">SCR Size</th>
+				<th rowspan="2" align="center"><?=$fields[17]['title'];?></th>
+				<th rowspan="2" align="center"><?=$fields[19]['title'];?></th>
 <?
 			}
 			else if ($type == $lcd){
 ?>
-				<th rowspan="2" align="center">Notes</th>
-				<th rowspan="2" align="center">SCR Size</th>
+				<th rowspan="2" align="center"><?=$fields[18]['title'];?></th>
+				<th rowspan="2" align="center"><?=$fields[19]['title'];?></th>
 <?
 			}
 ?>
-                <th rowspan="2" align="center">Product Description</th>
-                <th rowspan="2" align="center">WTY</th>
+                <th rowspan="2" align="center"><?=$fields[6]['title'];?></th>
+                <th rowspan="2" align="center"><?=$fields[8]['title'];?></th>
 <?
                 if($dealer_type_name == $distributor || $view_all){
 ?>
-                <th colspan="2" align="center">DISTRIBUTOR</th>
+                <th colspan="2" align="center"><?=$fields[8]['title'];?></th>
 <?
                 }
                 if($dealer_type_name == $key_partner || $view_all){
 ?>
-                <th colspan="2" align="center">KEY PARTNER</th>
+                <th colspan="2" align="center"><?=$fields[9]['title'];?></th>
 <?
                 }
                 if($dealer_type_name == $pro_av || $view_all){
 ?>
-                <th colspan="2" align="center">PRO AV</th>
+                <th colspan="2" align="center"><?=$fields[10]['title'];?></th>
 <?
                 }
                 if($dealer_type_name == $govt || $view_all){
 ?>
-                <th colspan="2" align="center">GOV'T</th>
+                <th colspan="2" align="center"><?=$fields[11]['title'];?></th>
 <?
                 }
                 if($dealer_type_name == $wholesale1 || $view_all){
 ?>
-                <th colspan="2" align="center">WHOLESALE 1</th>
+                <th colspan="2" align="center"><?=$fields[12]['title'];?></th>
 <?
                 }
                 if($dealer_type_name == $wholesale2 || $view_all){
 ?>
-                <th colspan="2" align="center">WHOLESALE 2</th>
+                <th colspan="2" align="center"><?=$fields[13]['title'];?></th>
 <?
                 }
                 if($dealer_type_name == $comm || $view_all){
 ?>
-                <th colspan="2" align="center">EDUCATION</th>
+                <th colspan="2" align="center"><?=$fields[14]['title'];?></th>
 <?
                 }
                 if($dealer_type_name == $int_vision || $view_all){
 ?>
-                <th colspan="2" align="center">DEALER</th>
+                <th colspan="2" align="center"><?=$fields[15]['title'];?></th>
 <?
                 }
 ?>
-                <th align="center">RRP</th>
+                <th align="center"><?=$fields[16]['title'];?></th>
             </tr>
             <tr>
 <?

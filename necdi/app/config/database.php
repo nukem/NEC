@@ -38,8 +38,8 @@ $active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "neccd";
-$db['default']['password'] = "DAhe4Utr";
+$db['default']['username'] = "neccd_db";
+$db['default']['password'] = "qwerty123#";
 $db['default']['database'] = "neccd_db";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
