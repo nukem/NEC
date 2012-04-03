@@ -112,6 +112,9 @@ class Pricebook extends Controller{
 	
 	$dealer_type_array = array("DISTRIBUTOR", "KEY PARTNER", "PRO AV", "GOVT", "WHOLESALE1", "WHOLESALE2", "EDUCATION", "DEALER");
 	$view_all = ($user_fk == 181 || $user_fk == 1620);
+	
+	$fields = $this->db->get('nec_pricetable_fields')->result_array();
+	
 	include('projector.inc');     
 	
     }
@@ -318,7 +321,7 @@ class Pricebook extends Controller{
 		
 			}
 		
-			$csv .= $fields[16]['title']."RRP\n";//rrp
+			$csv .= $fields[16]['title']."\n";//rrp
 			$csv .= ",,,,,,,"; // added one ','   
 		
 			if($view_all){
@@ -669,7 +672,7 @@ class Pricebook extends Controller{
 		
 			}
 		
-			$csv .= $fields[16]['title']."RRP\n";//rrp
+			$csv .= $fields[16]['title']."\n";//rrp
 			$csv .= ",,,,,,,";   
 		
 			if($view_all){
