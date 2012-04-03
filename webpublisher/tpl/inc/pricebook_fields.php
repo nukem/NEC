@@ -24,9 +24,9 @@ table.fields tr td {
 		<td><input name="field[7]" style="width:16em;" value="<?php echo $result[6]['title'];?>" placeholder="Product Description"/></td>
 		<td><input name="field[8]" style="width:16em;" value="<?php echo $result[7]['title'];?>" placeholder="WTY"/></td>
 	</tr><tr>
-		<td><input name="field[9]" style="width:16em;" value="<?php echo $result[17]['title'];?>" placeholder="Color"/></td>
-		<td><input name="field[9]" style="width:16em;" value="<?php echo $result[18]['title'];?>" placeholder="Notes"/></td>		
-		<td><input name="field[9]" style="width:16em;" value="<?php echo $result[19]['title'];?>" placeholder="SCR Size"/></td>
+		<td><input name="field[18]" style="width:16em;" value="<?php echo $result[17]['title'];?>" placeholder="Color"/></td>
+		<td><input name="field[19]" style="width:16em;" value="<?php echo $result[18]['title'];?>" placeholder="Notes"/></td>		
+		<td><input name="field[20]" style="width:16em;" value="<?php echo $result[19]['title'];?>" placeholder="SCR Size"/></td>
 		<td><input name="field[10]" style="width:16em;" value="<?php echo $result[9]['title'];?>" placeholder="KEY PARTNER"/></td>
 		
 	</tr><tr>
