@@ -213,6 +213,11 @@ class Pricebook extends Controller{
 	$title = $query[0]['title'];
 	$filename = str_replace(" " , "_" , "NEC_complete_pricebook.csv");
 	
+	/** 
+	 * Fetch dynamic fields
+	 */
+	$fields = $this->db->get('nec_pricetable_fields')->result_array();
+	//echo '<pre>';print_r($fields);die();
 	/*
 	 ***************************************************************************************************************************************************
 	 */
@@ -243,77 +248,77 @@ class Pricebook extends Controller{
 			$csv .= "\n\nNEC ".$type." Price List\n\n";
 			
 			
-			$csv .= "CAT.";
-			$csv .= ",Status"; //check update
-			$csv .= ",Code,";
+			$csv .= $fields[0]['title'];//CAT
+			$csv .= ",".$fields[1]['title']; //Status
+			$csv .= ",".$fields[2]['title'].",";//Code
 			
 			if($type == $this->projector || $type == $this->whiteboard){
 		
-			$csv .= "RES,";
-			$csv .= "Chip set,";
+			$csv .= $fields[4]['title'].",";//res
+			$csv .= $fields[5]['title'].",";//chipset
 		
 			}
 			else if($type == $this->display || $type == $this->lpd){
 		
-			$csv .= "Color,";
-			$csv .= "SCR Size,";
+			$csv .= $fields[17]['title'].",";//color
+			$csv .= $fields[19]['title'].",";//SCR Size
 		
 			}
 			else if ($type == $this->lcd){
 		
-			$csv .= "Notes,";
-			$csv .= "SCR Size,";
+			$csv .= $fields[18]['title'].",";//notes
+			$csv .= $fields[19]['title'].",";//SCR size
 		
 			}
 			else if ($type == $this->whitegoods){
 			$csv .= ",,";
 			}
 		
-			$csv .= "Product Description,";
-			$csv .= "WTY,";
+			$csv .= $fields[6]['title'].",";//product description
+			$csv .= $fields[7]['title'].",";//wty
 		
 			if($dealer_type_name == $distributor || $view_all){
 		
-			$csv .= "DISTRIBUTOR,,";
+			$csv .= $fields[8]['title'].",,";//distributor
 		
 			}
 			if($dealer_type_name == $key_partner || $view_all){
 		
-			$csv .= "KEY PARTNER,,";
+			$csv .= $fields[9]['title'].",,";//key partner
 		
 			}
 			if($dealer_type_name == $pro_av || $view_all){
 		
-			$csv .= "PRO AV,,";
+			$csv .= $fields[10]['title'].",,";//pro av
 		
 			}
 			if($dealer_type_name == $govt || $view_all){
 		
-			$csv .= "GOVT,,";
+			$csv .= $fields[11]['title'].",,";//govt
 		
 			}
 			if($dealer_type_name == $wholesale1 || $view_all){
 		
-			$csv .= "WHOLESALE 1,,";
+			$csv .= $fields[12]['title'].",,";//wholesale 1
 		
 			}
 			if($dealer_type_name == $wholesale2 || $view_all){
 		
-			$csv .= "WHOLESALE 2,,";
+			$csv .= $fields[13]['title'].",,";//wholesale 2
 		
 			}
 			if($dealer_type_name == $comm || $view_all){
 		
-			$csv .= "EDUCATION,,";
+			$csv .= $fields[14]['title'].",,";//education
 		
 			}
 			if($dealer_type_name == $int_vision || $view_all){
 		
-			$csv .= "DEALER,,";
+			$csv .= $fields[15]['title'].",,";//dealer
 		
 			}
 		
-			$csv .= "RRP\n";
+			$csv .= $fields[16]['title']."RRP\n";//rrp
 			$csv .= ",,,,,,,"; // added one ','   
 		
 			if($view_all){
@@ -557,6 +562,11 @@ class Pricebook extends Controller{
 	$title = $query[0]['title'];
 	$filename = str_replace(" " , "_" , "NEC_".$type."_pricebook.csv");
 	
+	/** 
+	 * Fetch dynamic fields
+	 */
+	$fields = $this->db->get('nec_pricetable_fields')->result_array();
+	
 	$csv = "";
 	
 	/*
@@ -589,77 +599,77 @@ class Pricebook extends Controller{
 			$csv .= "\n\nNEC ".$type." Price List\n\n";
 			
 			
-			$csv .= "CAT.";
-			$csv .= ",Status";
-			$csv .= ",Code,";
+			$csv .= $fields[0]['title'];//CAT
+			$csv .= ",".$fields[1]['title']; //Status
+			$csv .= ",".$fields[2]['title'].",";//Code
 			
 			if($type == $this->projector || $type == $this->whiteboard){
 		
-			$csv .= "RES,";
-			$csv .= "Chip set,";
+			$csv .= $fields[4]['title'].",";//res
+			$csv .= $fields[5]['title'].",";//chipset
 		
 			}
 			else if($type == $this->display || $type == $this->lpd){
 		
-			$csv .= "Color,";
-			$csv .= "SCR Size,";
+			$csv .= $fields[17]['title'].",";//color
+			$csv .= $fields[19]['title'].",";//SCR Size
 		
 			}
 			else if ($type == $this->lcd){
 		
-			$csv .= "Notes,";
-			$csv .= "SCR Size,";
+			$csv .= $fields[18]['title'].",";//notes
+			$csv .= $fields[19]['title'].",";//SCR size
 		
 			}
 			else if ($type == $this->whitegoods){
 			$csv .= ",,";
 			}
 		
-			$csv .= "Product Description,";
-			$csv .= "WTY,";
+			$csv .= $fields[6]['title'].",";//product description
+			$csv .= $fields[7]['title'].",";//wty
 		
 			if($dealer_type_name == $distributor || $view_all){
 		
-			$csv .= "DISTRIBUTOR,,";
+			$csv .= $fields[8]['title'].",,";//distributor
 		
 			}
 			if($dealer_type_name == $key_partner || $view_all){
 		
-			$csv .= "KEY PARTNER,,";
+			$csv .= $fields[9]['title'].",,";//key partner
 		
 			}
 			if($dealer_type_name == $pro_av || $view_all){
 		
-			$csv .= "PRO AV,,";
+			$csv .= $fields[10]['title'].",,";//pro av
 		
 			}
 			if($dealer_type_name == $govt || $view_all){
 		
-			$csv .= "GOVT,,";
+			$csv .= $fields[11]['title'].",,";//govt
 		
 			}
 			if($dealer_type_name == $wholesale1 || $view_all){
 		
-			$csv .= "WHOLESALE 1,,";
+			$csv .= $fields[12]['title'].",,";//wholesale 1
 		
 			}
 			if($dealer_type_name == $wholesale2 || $view_all){
 		
-			$csv .= "WHOLESALE 2,,";
+			$csv .= $fields[13]['title'].",,";//wholesale 2
 		
 			}
 			if($dealer_type_name == $comm || $view_all){
 		
-			$csv .= "EDUCATION,,";
+			$csv .= $fields[14]['title'].",,";//education
 		
 			}
 			if($dealer_type_name == $int_vision || $view_all){
 		
-			$csv .= "DEALER,,";
+			$csv .= $fields[15]['title'].",,";//dealer
 		
 			}
 		
-			$csv .= "RRP\n";
+			$csv .= $fields[16]['title']."RRP\n";//rrp
 			$csv .= ",,,,,,,";   
 		
 			if($view_all){
