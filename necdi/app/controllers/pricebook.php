@@ -145,7 +145,9 @@ class Pricebook extends Controller{
 	$int_vision = "DEALER";
 	$rrp = "RRP";
 	
-	$dealer_type_array = array("DISTRIBUTOR", "KEY PARTNER", "PRO AV", "GOVT", "WHOLESALE1", "WHOLESALE2", "EDUCATION", "DEALER");
+	$fields = $this->db->get('nec_pricetable_fields')->result_array();
+	
+	$dealer_type_array = array( $fields[8]['title'], $fields[9]['title'], $fields[10]['title'], $fields[11]['title'], $fields[12]['title'], $fields[13]['title'], $fields[14]['title'], $fields[15]['title']);
 	$view_all = ($user_fk == 181 || $user_fk == 1620);
 	include('whiteboard.inc');   
     }
