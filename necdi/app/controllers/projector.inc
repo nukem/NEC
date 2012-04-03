@@ -120,14 +120,14 @@
 	  $header_projector[$index]['ROWSPAN'] = 2;
 	}
     
-	$header_projector[0]['TEXT'] = "CAT.";
-	$header_projector[1]['TEXT'] = "Status";
-        $header_projector[2]['TEXT'] = "Code"; 
+	$header_projector[0]['TEXT'] = $fields[0]['title'];//CAT
+	$header_projector[1]['TEXT'] = $fields[1]['title']; //Status
+        $header_projector[2]['TEXT'] = $fields[2]['title'];//Code
         $header_projector[3]['TEXT'] = "Link";
-        $header_projector[4]['TEXT'] = "RES";
-        $header_projector[5]['TEXT'] = "Chip Set";
-        $header_projector[6]['TEXT'] = "Product Description";
-        $header_projector[7]['TEXT'] = "WTY";
+        $header_projector[4]['TEXT'] = $fields[4]['title'];//res
+        $header_projector[5]['TEXT'] = $fields[5]['title'];//chipset
+        $header_projector[6]['TEXT'] = $fields[6]['title'];//product description
+        $header_projector[7]['TEXT'] = $fields[7]['title'];//wty
         
         if($view_all){
             for($j = 0; $j < count($dealer_type_array); $j++){
@@ -137,14 +137,14 @@
 		$header_common[ 8 + 2 * $j ]['TEXT'] = "exGST";
 		$header_common[ 8 + 2 * $j + 1 ]['TEXT'] = "incGST";
             }
-            $header_projector[24]['TEXT'] = "RRP";
+            $header_projector[24]['TEXT'] = $fields[16]['title'];//rrp
             $header_projector[24]['COLSPAN'] = 2;
 	    
 	    $header_common[24]['TEXT'] = "incGST";
             
         }
 	else if($dealer_type_name=="RRP"){
-	    $header_projector[8]['TEXT'] = "RRP";
+	    $header_projector[8]['TEXT'] = $fields[16]['title'];//rrp
 	    $header_common[8]['TEXT'] = "incGST";
 	}
         else{
@@ -157,7 +157,7 @@
                     $header_common[9]['TEXT'] = "incGST";
                 }
             }
-            $header_projector[10]['TEXT'] = "RRP";
+            $header_projector[10]['TEXT'] = $fields[16]['title'];//rrp
             $header_projector[10]['COLSPAN'] = 2;
 	    
             $header_common[10]['TEXT'] = "incGST";
