@@ -279,7 +279,7 @@ table#users {
 						css: {width: '600px', marginLeft: '50%', left: '-250px', top: '20px', border: '2px solid #999999', cursor: 'default'},
 						overlayCSS: {backgroundColor:'#fff', opacity: '0.8'}
 					});
-					$.getJSON('http://www.nec-cds.com.au/account/ajax_get_user/'+id, function(data){
+					$.getJSON('http://<?php echo $_SERVER['SERVER_NAME'];?>/account/ajax_get_user/'+id, function(data){
 						selected_user = data.userid;
 						var table = '<table cellspacing="0" cellpadding="4"><tbody>';
 						table += '<tr><td>Name</td><td>'+data.name+'</td></tr>';
@@ -328,8 +328,8 @@ table#users {
                     } else if (!approve_dealer_no.match(/[a-z0-9]+/i)) {
                         $('#approve-user .controls .errors:visible').css({'display':'none', 'color':'red'}).html('Dealer Number must not be empty!').slideDown(400);
                     } else if (window.confirm('Is this Dealer Number acurate?')) {
-						//$.getJSON('http://www.nec-cds.com.au/account/ajax_approve_user/'+selected_user+'/'+selected_cat+'/'+approve_dealer_no+'/'+pb_selected_cat, function(data){
-						$.post('http://www.nec-cds.com.au/account/ajax_approve_user/',
+						//$.getJSON('http://<?php echo $_SERVER['SERVER_NAME'];?>/account/ajax_approve_user/'+selected_user+'/'+selected_cat+'/'+approve_dealer_no+'/'+pb_selected_cat, function(data){
+						$.post('http://<?php echo $_SERVER['SERVER_NAME'];?>/account/ajax_approve_user/',
 							   {id:selected_user, cate: selected_cat, dealer_no:approve_dealer_no, pb_cate:pb_selected_cat},
 								function(data){
 							if (typeof(data) == 'object') {
@@ -361,7 +361,7 @@ table#users {
                 
 				function deleteUser() {
 					msg = $('#rejected-text').val();
-					$.post('http://www.nec-cds.com.au/account/ajax_delete_user', {id: selected_user, email: msg}, function(data){
+					$.post('http://<?php echo $_SERVER['SERVER_NAME'];?>/account/ajax_delete_user', {id: selected_user, email: msg}, function(data){
 						if (typeof(data) == 'object') {
 							if (data.error == false) {
 								$('#approve-user .controls .reject-user:visible').slideUp();
@@ -396,7 +396,7 @@ table#users {
                         inform = 'yes';
                     }
                     $.getJSON(
-                        'http://www.nec-cds.com.au/account/ajax_user_del/'+id+'/'+inform,
+                        'http://<?php echo $_SERVER['SERVER_NAME'];?>/account/ajax_user_del/'+id+'/'+inform,
                         function(data) {
 							if (typeof(data) == 'object') {
 								if (data.error == false) {
@@ -444,7 +444,7 @@ table#users {
 					$('.point-content, .point-history, .point-balance', $('#ajax-edit-points-form')).show();
 					
 					$.post(
-						'http://www.nec-cds.com.au/myaccount/add_user_points',
+						'http://<?php echo $_SERVER['SERVER_NAME'];?>/myaccount/add_user_points',
 						$('#ajax-edit-points-form').serialize(),
 						function(data){
 							if (data.error)
@@ -473,7 +473,7 @@ table#users {
 				function displayUserPointsHistory(id)
 				{
 					$.getJSON(
-							'http://www.nec-cds.com.au/myaccount/get_points_history/' + id,
+							'http://<?php echo $_SERVER['SERVER_NAME'];?>/myaccount/get_points_history/' + id,
 							function(data)
 							{
 								if (data.error)
@@ -517,7 +517,7 @@ table#users {
 						data.pricebook_fk = '';//pricebook fk
                         populateInsertForm(data);
                     } else {
-                        $.getJSON('http://www.nec-cds.com.au/account/ajax_get_user/'+id, function(data){
+                        $.getJSON('http://<?php echo $_SERVER['SERVER_NAME'];?>/account/ajax_get_user/'+id, function(data){
                             selected_user = data.userid;
 							data.existing_dealer_no = data.dealer_no;
                             populateInsertForm(data);
@@ -620,7 +620,7 @@ table#users {
                 
                 function insertUpdateUser(){
                     $.post(
-                        'http://www.nec-cds.com.au/account/ajax_add_edit_user/',
+                        'http://<?php echo $_SERVER['SERVER_NAME'];?>/account/ajax_add_edit_user/',
                         $('#ajax_user_edit').serialize(),
                         function(data) {
 							if (typeof(data) == 'object') {
@@ -734,4 +734,6 @@ table#users {
 						<th>Details</th>
 					</thead>
 					<tbody></tbody>
-				</ta
+				</table>
+<H1>ASSHOLE</H1>
+<?php print_r($_SERVER);?>
