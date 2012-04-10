@@ -160,7 +160,7 @@ for($i=0; $i<$type_size; $i++){
 			}
 ?>
                 <th rowspan="2" align="center"><?=$fields[6]['title'];?></th>
-                <th rowspan="2" align="center"><?=$fields[8]['title'];?></th>
+                <th rowspan="2" align="center"><?=$fields[7]['title'];?></th>
 <?
                 if($dealer_type_name == $distributor || $view_all){
 ?>
