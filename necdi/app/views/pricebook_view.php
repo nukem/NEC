@@ -6,7 +6,15 @@
 	$display = "LCD Public Displays";
 	$lcd = "LCD & Plasma Television";
 	$whitegoods = "Whitegoods";
-    
+	/**
+$projector = "Projector";
+$whiteboard = "Interactive Whiteboard";
+//$display = "Commercial Flat Panel Display";
+$public = "LCD Public Displays";
+$display = "LCD & Plasma Displays";
+$lcd = "LCD & Plasma Television";
+$whitegoods = "Whitegoods";	
+    **/
     $distributor = "DISTRIBUTOR";
     $key_partner = "KEY PARTNER";
     $pro_av = "PRO AV";
@@ -18,7 +26,7 @@
     $rrp = "RRP";
     
     $isAdmin = ($user_fk == 181 || $user_fk == 1620);
-	
+	//die()
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -119,30 +127,30 @@ h2 {
 <?
         if($a_num != 0){
 ?>
-        <th rowspan='2'><?=$fields[0]['title'];?></th>
+        <th rowspan='2'><?=$fields[0]['title']; //CAT?></th>
 <?
         }
 ?>
-	<th rowspan="2"><?=$fields[1]['title'];?></th>
-        <th rowspan='2'><?=$fields[2]['title'];?></th>
-        <th rowspan='2'><?=$fields[3]['title'];?></th>
+		<th rowspan="2"><?=$fields[1]['title']; //Status?></th>
+        <th rowspan='2'><?=$fields[2]['title']; //Product Code?></th>
+        <th rowspan='2'><?=$fields[3]['title']; //Image?></th>
 <?
         if($name == $projector||$name == $whiteboard){
 ?>
-        <th rowspan='2'><?=$fields[4]['title'];?></th>
-        <th rowspan='2'><?=$fields[5]['title'];?></th>
+        <th rowspan='2'><?=$fields[4]['title']; //RES?></th>
+        <th rowspan='2'><?=$fields[5]['title']; //Chip Set?></th>
 <?
         }
         if($name == $display){
 ?>
-        <th rowspan='2'><?=$fields[17]['title'];?></th>
-        <th rowspan='2'><?=$fields[19]['title'];?></th>
+        <th rowspan='2'><?=$fields[17]['title']; //Color?></th>
+        <th rowspan='2'><?=$fields[19]['title']; //SCR Size?></th>
 <?
         }
         if($name == $lcd){
 ?>
-        <th rowspan='2'><?=$fields[18]['title'];?></th>
-        <th rowspan='2'><?=$fields[19]['title'];?></th>
+        <th rowspan='2'><?=$fields[18]['title']; //Notes?></th>
+        <th rowspan='2'><?=$fields[19]['title']; //Size?></th>
 <?
         }
 ?>
@@ -255,6 +263,7 @@ h2 {
 ?>    
     
 <?
+//die($name);
 foreach($table as $row){
 	echo '<!-- ' . print_r($row, true) . '-->';
 ?>

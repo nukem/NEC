@@ -372,7 +372,7 @@ class Pricebook extends Controller{
 						    
 	    
 					    if($k == 0){
-						    $csv .= $cates[$j]['cate_name'];
+						    $csv .= "\"".str_ireplace("\"","''",$cates[$j]['cate_name'])."\"";
 					    }
 					    /*else{
 						    $csv .= ",";
@@ -384,16 +384,16 @@ class Pricebook extends Controller{
 					    $csv .= ",".$products[$k]['code'].",";						      
 	    
 					    if($type == $this->projector || $type == $this->whiteboard){		    
-						    $csv .= $products[$k]['res'].",";
-						    $csv .= $products[$k]['chipset'].",";		    
+						    $csv .= "\"".str_ireplace("\"","''",$products[$k]['res'])."\",";
+						    $csv .= "\"".str_ireplace("\"","''",$products[$k]['chipset'])."\",";		    
 					    }
 					    else if ($type == $this->display || $type == $this->lpd){		    
-						    $csv .= $products[$k]['color'].",";
-						    $csv .= $products[$k]['scr'].",";		    
+						    $csv .= "\"".str_ireplace("\"","''",$products[$k]['color'])."\",";	
+						    $csv .= "\"".str_ireplace("\"","''",$products[$k]['scr'])."\",";	 
 					    }
 					    else if ($type == $this->lcd){		    
 						    $csv .= $products[$k]['notes'].",";
-						    $csv .= $products[$k]['scr'].",";		    
+						    $csv .= "\"".str_ireplace("\"","''",$products[$k]['scr'])."\",";
 					    }
 					    else if ($type == $this->whitegoods){
 						    $csv .= ",,";
@@ -610,13 +610,13 @@ class Pricebook extends Controller{
 			$csv .= ",".$fields[1]['title']; //Status
 			$csv .= ",".$fields[2]['title'].",";//Code
 			
-			if($type == $this->projector || $type == $this->whiteboard){
+			if($type == $this->projector){
 		
 			$csv .= $fields[4]['title'].",";//res
 			$csv .= $fields[5]['title'].",";//chipset
 		
 			}
-			else if($type == $this->display || $type == $this->lpd){
+			else if($type == $this->display || $type == $this->lpd || $type == $this->whiteboard){
 		
 			$csv .= $fields[17]['title'].",";//color
 			$csv .= $fields[19]['title'].",";//SCR Size
@@ -723,12 +723,12 @@ class Pricebook extends Controller{
 						    
 	    
 					    if($k == 0){
-						    $csv .= $cates[$j]['cate_name'];
+						    $csv .= "\"".str_ireplace("\"","''",$cates[$j]['cate_name'])."\"";
 					    }
 					    /*else{
 						    $csv .= ",";
 					    }*/
-					    if($products[$k]['updated'] != '')
+										    if($products[$k]['updated'] != '')
 						    $csv .= "," . $products[$k]['updated'];
 					    else
 						    $csv .= ",";
@@ -736,15 +736,15 @@ class Pricebook extends Controller{
 	    
 					    if($type == $this->projector || $type == $this->whiteboard){		    
 						    $csv .= $products[$k]['res'].",";
-						    $csv .= $products[$k]['chipset'].",";		    
+						    $csv .= "\"".str_ireplace("\"","''",$products[$k]['chipset'])."\",";		    
 					    }
 					    else if ($type == $this->display || $type == $this->lpd){		    
 						    $csv .= $products[$k]['color'].",";
-						    $csv .= $products[$k]['scr'].",";		    
+						    $csv .= "\"".str_ireplace("\"","''",$products[$k]['scr'])."\",";	    
 					    }
 					    else if ($type == $this->lcd){		    
 						    $csv .= $products[$k]['notes'].",";
-						    $csv .= $products[$k]['scr'].",";		    
+						    $csv .= "\"".str_ireplace("\"","''",$products[$k]['scr'])."\",";		    
 					    }
 					    else if ($type == $this->whitegoods){
 						    $csv .= ",,";

@@ -130,8 +130,8 @@
 	$header_projector[1]['TEXT'] = $fields[1]['title']; //Status
         $header_projector[2]['TEXT'] = $fields[2]['title'];//Code 
         $header_projector[3]['TEXT'] = "Link";
-        $header_projector[4]['TEXT'] = $fields[4]['title'];//res
-        $header_projector[5]['TEXT'] = $fields[5]['title'];//chipset
+        $header_projector[4]['TEXT'] = $fields[17]['title'];//COLOR
+        $header_projector[5]['TEXT'] = $fields[19]['title'];//SCREEN Size
         $header_projector[6]['TEXT'] = $fields[6]['title'];//product description
         $header_projector[7]['TEXT'] = $fields[7]['title'];//wty
         

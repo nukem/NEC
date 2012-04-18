@@ -127,7 +127,7 @@ for($i=0; $i<$type_size; $i++){
 	$cates;
 		
 	$cates = $this->pricebook_model->get_categories($type);
-	
+	echo '<pre>';print_r($fields);echo '</pre>';
 	if(is_array($cates) && count($cates) > 0){
 ?>
 	<h2>NEC <?= $type?> Price List</h2>
@@ -135,27 +135,27 @@ for($i=0; $i<$type_size; $i++){
 	<table border="1">
 		<thead>
 		<tr>
-                <th rowspan="2" align="center"><?=$fields[0]['title'];?></th>
-				<th rowspan="2" align="center"><?=$fields[1]['title'];?></th>
-                <th rowspan="2" align="center"><?=$fields[2]['title'];?></th>
-                <th rowspan="2" align="center"><?=$fields[3]['title'];?></th>
+                <th rowspan="2" align="center"><?=$fields[0]['title']; //CAT?></th>
+				<th rowspan="2" align="center"><?=$fields[1]['title']; //Status?></th>
+                <th rowspan="2" align="center"><?=$fields[2]['title']; //Code?></th>
+                <th rowspan="2" align="center"><?=$fields[3]['title']; //Image?></th>
 <?
 			if($type == $projector || $type == $whiteboard){
 ?>
-                <th rowspan="2" align="center"><?=$fields[4]['title'];?></th>
-                <th rowspan="2" align="center"><?=$fields[5]['title'];?></th>
+                <th rowspan="2" align="center"><?=$fields[4]['title']; //RES?></th>
+                <th rowspan="2" align="center"><?=$fields[5]['title']; //Chipset?></th>
 <?
 			}
 			else if($type == $display || $type == $public){
 ?>
-				<th rowspan="2" align="center"><?=$fields[17]['title'];?></th>
-				<th rowspan="2" align="center"><?=$fields[19]['title'];?></th>
+				<th rowspan="2" align="center"><?=$fields[17]['title']; //Color?></th>
+				<th rowspan="2" align="center"><?=$fields[19]['title']; //SCR Size?></th>
 <?
 			}
 			else if ($type == $lcd){
 ?>
-				<th rowspan="2" align="center"><?=$fields[18]['title'];?></th>
-				<th rowspan="2" align="center"><?=$fields[19]['title'];?></th>
+				<th rowspan="2" align="center"><?=$fields[18]['title']; //Notes?></th>
+				<th rowspan="2" align="center"><?=$fields[19]['title']; //SCR Size?></th>
 <?
 			}
 ?>
